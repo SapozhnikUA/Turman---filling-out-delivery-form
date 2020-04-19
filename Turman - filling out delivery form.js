@@ -8,8 +8,8 @@
 // @match        http://base.turman.ua/db/send_create
 // @include      http://base.turman.ua/db/send_create
 // @exclude      http://base.turman.ua/db/send_create*
-// @updateURL    https://github.com/waze-ua/wme_minregion/raw/master/WME%20MinRegion.user.js
-// @downloadURL  https://github.com/waze-ua/wme_minregion/raw/master/WME%20MinRegion.user.js
-// @supportURL   https://github.com/waze-ua/wme_minregion/issues
+// @updateURL    https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/blob/master/Turman%20-%20filling%20out%20delivery%20form.js
+// @downloadURL  https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/blob/master/Turman%20-%20filling%20out%20delivery%20form.js
+// @supportURL   https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/issues
 // @grant        none
 // ==/UserScript==
