@@ -8,8 +8,8 @@
 // @match        http://base.turman.ua/db/send_create
 // @include      http://base.turman.ua/db/send_create
 // @exclude      http://base.turman.ua/db/send_create*
-// @updateURL    https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/blob/master/Turman%20-%20filling%20out%20delivery%20form.js
-// @downloadURL  https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/blob/master/Turman%20-%20filling%20out%20delivery%20form.js
+// @updateURL    https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/raw/master/Turman%20-%20filling%20out%20delivery%20form.js
+// @downloadURL  https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/raw/master/Turman%20-%20filling%20out%20delivery%20form.js
 // @supportURL   https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/issues
 // @grant        none
 // ==/UserScript==
