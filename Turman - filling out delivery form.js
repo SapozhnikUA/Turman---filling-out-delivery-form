@@ -1,4 +1,3 @@
-  
 // ==UserScript==
 // @name         Turman - filling out delivery form
 // @namespace    sapozhnik@gmail.com
@@ -13,3 +12,20 @@
 // @supportURL   https://github.com/SapozhnikUA/Turman---filling-out-delivery-form/issues
 // @grant        none
 // ==/UserScript==
+
+
+console.log('Start');
+// Меняем ФИО отправителя
+let my_form = document.getElementById('students-form');
+let input_field = my_form.querySelectorAll('input');
+input_field[8].value = 'Фоменко Андрій';
+
+// Тип отправки Эконом-экспесс-ВИП
+document.getElementsByName('T_SRV').value = "EC";
+document.getElementsByName('T_SRV')[3].checked = "1";
+
+// Обратный адрес
+document.getElementsByName('S_Adr')[0].value = "вул. Сверстюка Євгена, буд. 2А / БЦ Лівобережний";
+
+
+console.log ('Done');
