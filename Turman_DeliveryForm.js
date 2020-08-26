@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Turman_DeliveryForm
 // @namespace    sapozhnik@gmail.com
-// @version      2020.04.19.002
+// @version      2020.08.26.001
 // @description  Turman - filling out delivery form (Ukraine)
 // @author       SapozhnikUA
-// @match        http://base.turman.ua/db/send_create
-// @updateURL    https://github.com/SapozhnikUA/Turman_DeliveryForm/raw/master/Turman_DeliveryForm
-// @downloadURL  https://github.com/SapozhnikUA/Turman_DeliveryForm/raw/master/Turman_DeliveryForm
+// @match        /^https?://base.turman.ua/db/send_create
+// @updateURL    https://github.com/SapozhnikUA/Turman_DeliveryForm/raw/master/Turman_DeliveryForm.user.js
+// @downloadURL  https://github.com/SapozhnikUA/Turman_DeliveryForm/raw/master/Turman_DeliveryForm.user.js
 // @supportURL   https://github.com/SapozhnikUA/Turman_DeliveryForm/issues
 // @grant        none
 // ==/UserScript==
