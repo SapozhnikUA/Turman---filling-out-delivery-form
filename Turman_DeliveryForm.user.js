@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Turman_DeliveryForm
 // @namespace    sapozhnik@gmail.com
-// @version      2020.08.26.003
+// @version      2020.12.24.001
 // @description  Turman - filling out delivery form (Ukraine)
 // @author       SapozhnikUA
 // @match        https://base.turman.ua/db/send_create
@@ -16,7 +16,10 @@ console.log('Start');
 // Меняем ФИО отправителя
 let my_form = document.getElementById('students-form');
 let input_field = my_form.querySelectorAll('input');
-input_field[8].value = 'Фоменко Андрій';
+console.log("вывод:", input_field);
+console.log("вывод до:", input_field[10].value);
+input_field[10].value = 'Фоменко Андрій';
+console.log("вывод после:", input_field[10].value);
 
 // Тип отправки Эконом-экспесс-ВИП
 document.getElementsByName('T_SRV').value = "EC";
