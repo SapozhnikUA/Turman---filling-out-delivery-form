@@ -28,5 +28,4 @@ document.getElementsByName('T_SRV')[3].checked = "1";
 // Обратный адрес
 document.getElementsByName('S_Adr')[0].value = "вул. Сверстюка Євгена, буд. 2А / БЦ Лівобережний";
 
-
 console.log ('Done');
