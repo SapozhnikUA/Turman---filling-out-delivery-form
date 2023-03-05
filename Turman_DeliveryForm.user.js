@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Turman_DeliveryForm
 // @namespace    sapozhnik@gmail.com
-// @version      2023.03.05.001
+// @version      2023.03.05.002
 // @description  Turman - filling out delivery form (Ukraine)
 // @author       SapozhnikUA
 // @match        https://base.turman.ua/db/send_create
@@ -23,7 +23,7 @@ console.log("вывод после:", input_field[10].value);
 
 // Тип отправки Эконом-экспесс-ВИП
 document.getElementsByName('T_SRV').value = "EX";
-document.getElementsByName('T_SRV')[3].checked = "1";
+document.getElementsByName('T_SRV')[2].checked = "1";
 
 // Обратный адрес
 document.getElementsByName('S_Adr')[0].value = "вул. Сверстюка Євгена, буд. 2А / БЦ Лівобережний";
