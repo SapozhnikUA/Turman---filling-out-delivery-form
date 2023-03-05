@@ -23,7 +23,7 @@ console.log("вывод после:", input_field[10].value);
 
 // Тип отправки Эконом-экспесс-ВИП
 //document.getElementsByName('T_SRV').value = "EX";
-document.getElementsByName('T_SRV')[1].checked = "1";
+document.getElementsByName('T_SRV')[3].checked = "1";
 
 // Обратный адрес
 document.getElementsByName('S_Adr')[0].value = "вул. Сверстюка Євгена, буд. 2А / БЦ Лівобережний";
